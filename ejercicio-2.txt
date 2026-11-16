@@ -1,0 +1,8 @@
+Edad de la madre al dara luz: calcula la diferencia de edad  entre una madre y su hijo dadas ambas edades.
+System.out.println("HOLA MUNDO SOY SILVIA");
+double edadMadre= Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese la edad de la madre"));
+double edadHijo= Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese la edad del hijo"));
+
+double diferencia = edadMadre -edadHijo;
+      
+System.out.println("La edad de la madre  al dar a luz es: " + diferencia);
