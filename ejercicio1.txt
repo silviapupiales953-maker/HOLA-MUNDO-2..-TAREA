@@ -1,0 +1,6 @@
+double nota1 = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese nota 1"));
+double nota2 = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese nota 2"));
+double nota3 = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese nota 3"));
+
+double suma = nota1 + nota2 + nota3;
+double promedio = suma / 3;
