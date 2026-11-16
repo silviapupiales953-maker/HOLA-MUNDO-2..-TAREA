@@ -1,0 +1,10 @@
+ double diagonalMayor = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese la diagonal mayor del rombo"));
+ double diagonalMenor = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese la diagonal menor del rombo"));
+ double lado = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese el valor de un lado del rombo"));
+
+ double areaRombo = (diagonalMayor * diagonalMenor) / 2;
+ double perimetroRombo = 4 * lado;
+
+ System.out.println("El área del rombo es: " + areaRombo);
+ System.out.println("El perímetro del rombo es: " + perimetroRombo);
+ 
