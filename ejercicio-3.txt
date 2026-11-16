@@ -1,0 +1,9 @@
+Conversión de unidades: Convertir pesos colombianos a dólares.
+ System.out.println("HOLA MUNDO SOY SILVIA");
+
+ double pesos = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese la cantidad de pesos colombianos (COP)"));
+ double valorDolar = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese el valor actual del dólar en pesos"));
+
+ double dolares = pesos / valorDolar;
+
+ System.out.println("La cantidad en dólares es: " + dolares);
